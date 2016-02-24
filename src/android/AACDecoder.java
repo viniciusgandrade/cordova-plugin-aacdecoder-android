@@ -35,7 +35,7 @@ public class AACDecoder extends CordovaPlugin {
     public static final String TAG = "Aac Decoder Plugin";
     private MultiPlayer multiPlayer;
 
-    public AacDecoder(){}
+    public AACDecoder(){}
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
