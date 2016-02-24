@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="br.com.calangodev.aacdecoder" version="0.0.1">
-    <name>Aacdecoder</name>
+    <name>AACdecoder</name>
     <description>Cordova AAC Decoder Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,aacdecoder,streaming</keywords>
@@ -12,7 +12,7 @@
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="AacDecoder" >
+            <feature name="AACdecoder" >
                 <param name="android-package" value="br.com.calangodev.aacdecoder.AACDecoder"/>
                 <!--<param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener"/>-->
             </feature>
