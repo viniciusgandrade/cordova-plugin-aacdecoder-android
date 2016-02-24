@@ -24,8 +24,8 @@ var aacdecoder = {
     mediaPlayer:function(url) {
         exec(null, null, "AACDecoder", "mediaPlayer", [url]);
     },
-    mediaPlayerStop:function() {
-        exec(null, null, "AACDecoder", "mediaPlayerStop", []);
+    stopMediaPlayer:function() {
+        exec(null, null, "AACDecoder", "stopMediaPlayer", []);
     },
     readyState: function(successCallback, errorCallback) {
     	exec(successCallback, errorCallback, "AACDecoder", "readyState", []);
