@@ -22,10 +22,13 @@ var exec = require('cordova/exec');
 
 var aacdecoder = {
     mediaPlayer:function(url) {
-        exec(null, null, "AacDecoder", "mediaPlayer", [url]);
+        exec(null, null, "AACDecoder", "mediaPlayer", [url]);
+    },
+    mediaPlayerStop:function() {
+        exec(null, null, "AACDecoder", "mediaPlayerStop", []);
     },
     readyState: function(successCallback, errorCallback) {
-    	exec(successCallback, errorCallback, "AacDecoder", "readyState", []);
+    	exec(successCallback, errorCallback, "AACDecoder", "readyState", []);
     },
 };
 
