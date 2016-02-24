@@ -30,7 +30,7 @@ import android.app.Activity;
 import java.lang.Throwable;
 
 
-public class AacDecoder extends CordovaPlugin {
+public class AACDecoder extends CordovaPlugin {
 
     public static final String TAG = "Aac Decoder Plugin";
     private MultiPlayer multiPlayer;
