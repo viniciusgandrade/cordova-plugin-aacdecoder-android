@@ -13,7 +13,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="AacDecoder" >
-                <param name="android-package" value="br.com.calangodev.aacdecoder.AacDecoder"/>
+                <param name="android-package" value="br.com.calangodev.aacdecoder.AACDecoder"/>
                 <!--<param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener"/>-->
             </feature>
         </config-file>
@@ -21,7 +21,7 @@
         <!--<source-file src="src/android/BatteryListener.java" target-dir="src/org/apache/cordova/batterystatus" />-->
         <!--<source-file src="src/android/Foo.java" target-dir="src/com/alunny/foo" />-->
         <!--<lib-file src="src/android/libs/arm64-v8a/libaacdecoder.so" arch="device" />-->
-        <source-file src="src/android/AacDecoder.java" target-dir="src/br/com/calangodev/aacdecoder"/>
+        <source-file src="src/android/AACDecoder.java" target-dir="src/br/com/calangodev/aacdecoder"/>
         <source-file src="src/android/PlayerCallbackService.java" target-dir="src/br/com/calangodev/aacdecoder" />
         <source-file src="src/android/libs/arm64-v8a/libaacdecoder.so" target-dir="jniLibs/arm64-v8a/" />
         <source-file src="src/android/libs/armeabi/libaacdecoder.so" target-dir="jniLibs/armeabi/" />
